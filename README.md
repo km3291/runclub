@@ -10,7 +10,7 @@ To update the website, create a new branch called "development". You can then us
 You can also use whatever IDE you want if you're familiar with GitHub
 
 Whenever you commit to the development branch, this website will show the changes made, usually within 10-20 seconds: \
-[development--runningclubwebsite.netlify.app](https://development--runningclubwebsite.netlify.app/)\
+[development--runningclubwebsite.netlify.app](https://development--runningclubwebsite.netlify.app/)
 
 NOTE: If the branch is not named development, this will not work.
 
