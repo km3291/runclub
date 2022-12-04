@@ -1,4 +1,4 @@
-#Running Club Website
+# Running Club Website
 
 This is the code for the WPI Running Club Website
 
