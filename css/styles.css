@@ -7375,7 +7375,7 @@ form .row:first-child .floating-label-form-group {
 
 .footer {
   padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   background-color: #000000;
   color: #fff; }
 
