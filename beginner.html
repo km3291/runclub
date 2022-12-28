@@ -6,7 +6,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <title>WPI Running Club</title>
-		<link rel="icon" type="image/png"  href="assets/img/run.png">
+		<link rel="icon" type="image/svg"  href="assets/img/run.svg">
         <!-- Font Awesome icons (free version)-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -14,16 +14,20 @@
         <!-- Fonts CSS-->
         <link rel="stylesheet" href="css/heading.css">
         <link rel="stylesheet" href="css/body.css">
-		<!-- animate css-->
+		<!-- animate css (used for animating objects)-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
+
+<!--NAVBAR-->
     <body id="page-top">
-        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-            <div class="container"><a class="navbar-brand js-scroll-trigger" href="index.html">WPI Running Club</a>
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top" id="mainNav">
+            <div class="container"><a class="navbar-brand js-scroll-trigger" href="index.html">
+                <img src="assets/img/run_white.svg" width="40" height="40" class="d-inline-block align-bottom" alt="">
+                WPI Running Club</a>
                 <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                      	<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Home</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#about">Home</a>
                         </li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#schedule">Schedule</a>
                         </li>
@@ -45,6 +49,7 @@
                 </div>
             </div>
         </nav>
+<!--END NAVBAR-->
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Running Club Image-->
@@ -52,10 +57,10 @@
                 <!-- Top of Page Heading-->
                 <h1 class="masthead-heading mb-0">Beginner Routes</h1>
 				
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <!-- Icon Divider WHITE-->
+				<div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fa-solid fa-person-running"></i></div>
+                    <div class="divider-custom-icon"><img src="assets/img/run_white.svg" width="33" height="33" class="d-flex " alt="person running icon"></div>
                     <div class="divider-custom-line"></div>
                 </div>
 				
@@ -69,17 +74,6 @@
             <div class="container">
 			<div class="row">
 					<!-- ------------------------------------------------------------------------------------------
-						DON'T USE				<iframe id="mapmyfitness_route" src="LINK" height="570px" width="100%" frameborder="0" style="overflow:hidden"></iframe>
-												<center>
-												<a href="LINK" class="btn btn-primary btn-lg js-scroll-trigger" role="button">Route</a>
-												</center>
-					
-					<!-- Icon Divider--
-					<div class="divider-custom">
-						<div class="divider-custom-line"></div>
-						<div class="divider-custom-icon"><i class="fa-solid fa-person-running"></i></div>
-						<div class="divider-custom-line"></div>
-					</div>
 					
 					*****link must start with https://snippets.mapmycdn.com
 					
