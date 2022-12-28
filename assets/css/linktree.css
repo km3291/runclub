@@ -5,7 +5,9 @@
 }
 
 body {
-    background: url(../img/bg.jpg);
+    background: url(../img/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #logo {
@@ -56,29 +58,6 @@ body {
     border: solid #A9B0B7 2px;
 }
 
-.footer {
-    text-align: center;
-    font-size: 1.3rem;
-}
-
-.circulo {
-    background: rgb(221, 221, 221);
-    border-radius: 20px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    font-size: 24px;
-    color: rgb(32, 32, 32);
-}
-
-.circulo:hover {
-    background: #AC2B37;
-    color: rgb(255, 255, 255);
-    -webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
-    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
-    box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
-}
-
 .card-transparent {
     background: rgba(255,255,255,.9)!important;
     margin: 0;
@@ -91,28 +70,28 @@ body {
 
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {  
+@media (max-width: 600px) {  
     .card-transparent {
         width: 80%
     }    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {  
+@media (min-width: 600px) {  
     .card-transparent {
         width: 60%
     }  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {  
+@media (min-width: 768px) {  
     .card-transparent {
         width: 50%
     }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media (min-width: 992px) {
     .card-transparent {
         width: 40%
     }  
