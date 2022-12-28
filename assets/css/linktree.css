@@ -34,6 +34,7 @@ body {
     width: 80%;
     display: block;
     margin: 27px auto;
+    
 }
 
 .link {
@@ -49,6 +50,7 @@ body {
     font-weight: bold;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
     border: solid var(--accentColor) 2px;
+    
 }
 
 .link:hover {
@@ -58,20 +60,20 @@ body {
 }
 
 .card-transparent {
-    background: rgba(255,255,255,.9)!important;
-    margin: 0;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    -ms-transform: translate(-50%);
-    transform: translate(-50%);
+    background: rgba(255,255,255,.8)!important;
+    border-radius: 10%;
+
+}
+.flexcen {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    align-self: center;
     min-height: 90%;
-    border-radius: 8%;
-
 }
+
+
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {  
     .card-transparent {
