@@ -74,9 +74,7 @@ body {
 .circulo:hover {
     background: #AC2B37;
     color: rgb(255, 255, 255);
-    -webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
-    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
-    box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+    
 }
 
 .card-transparent {
